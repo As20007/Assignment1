@@ -1,0 +1,169 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.75;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	border-bottom:1px solid grey;
+}
+
+p {
+	
+}
+
+/* Will overide the normal heading CSS*/
+#special-heading {
+	background-color: black;
+	color: white;
+	padding-left: 10px;
+}
+
+/* Will overide the normal heading CSS by cascading*/
+
+.class1 {
+	background-color: pink !important;
+	color: black;
+	padding-left: 10px;
+
+}
+/* Should in theory overide the previous color of class1 but wont because pink was marked as important*/
+
+.class1 {
+	background-color: orange;
+}
+
+.class2 {
+	border-top: 4px solid yellow;
+
+}
+.class3 {
+	font-family: Courier;
+}
+
+
+ol li {
+	font-family: Courier;
+
+}
+
+ol li li {
+	font-family: "Comic sans Ms";
+}
+
+ul li {
+	
+}
+
+.class li{
+	background-color: magenta;
+
+}
+
+a:hover, a:focus {
+	color: green;
+	background-color: #eee;
+	outline: 1px solid #ccc;
+}
+
+a:active{
+	color:red;
+}
+
+[alt="abstract art"]{
+	width=100%
+}
+
+[width="400"]{
+	width:50%;
+}
+
+a[href$=".pdf"]{
+	background-color: orange;
+}
+
+.floatleft {
+	float: left;
+	width: 30%;
+}
+
+.floatright {
+	float:right;
+	width: 25%;
+}
+
+.clear{ 
+	clear: both;
+}
+
+tr:nth-child(odd) {
+	background-color:red;
+}
+
+.shadow{
+	box-shadow: 4px 4px 4px grey;
+	padding: 20px;
+	border-radius: 25px;
+  padding: 20px;
+  width: 600px;
+  height: 150px;
+}
+
+
+
+nav {
+	border: 1px solid green;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+
+}
+
+nav li {
+	display: inline;
+
+}
+
+nav li a {
+	padding: 10px 20px;
+}
+
+footer{
+	border: 1px solid orange;
+	padding:10px 20px;
+}
+
+main{
+	border: 1px solid blue;
+	padding:10px 20px;
+}
+
+
+header{
+	border: 1px solid pink;
+	padding:10px 20px;
+	color: white;
+	background-color:black;
+}
+
+div {
+   /* Background pattern from Toptal Subtle Patterns */
+   background-image: url("practice3.png");
+   background-repeat: no-repeat;
+   height: 200px;
+   width: 800px;
+}
+
+div::before {
+  content: "hello";
+}
+div::after {
+  content: "goodbye";
+}
+
+
