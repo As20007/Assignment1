@@ -56,7 +56,7 @@ ol li li {
 }
 
 ul li {
-	
+
 }
 
 .class li{
@@ -81,6 +81,7 @@ a:active{
 [width="400"]{
 	width:50%;
 }
+
 
 a[href$=".pdf"]{
 	background-color: orange;
